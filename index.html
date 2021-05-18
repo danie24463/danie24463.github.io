@@ -1,59 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gettoschool2</title>
-    <style media="screen">
-      div {
-        border: 1px solid black;
-        background-color: red;
-        margin: 5px;
-        padding: 5px;
-      }
-      #content{
-        border: 5px dotted yellow;
-        background-color: green;
-        margin: auto;
-        width: 90%;
-      }
-      .linksBox {
-        background-color: blue;
-      }
-      body{
-        background-color: #fff700;
-      }
-      a: {}
-      a:hover{}
-        a:visited{}
-          body {
-            background-color: black;
-          }
-          @media only screen and (max-width: 600px) {
-            body {
-              background-color: lightblue;
-            }
-          }
-    </style>
-  </head>
-  <body>
-    <div id="content">
-      <div class="linksBox">
-        <h1>Thumbspanel</h1>
-   </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbspanel</title>
+  <script type="text/javascript">
+  var box = ["sword", "pickaxe", "shovel", "cure for cancer"];
+  var rando = Math.random() * 4
+  rando = Math.floor(rando)
+  document.geteElementById('parabox').innerHTML= box[rando]
+  </script>
+</head>
+  <link rel="stylesheet" href="css/style.css">
+
+<body>
+  <div id="content">
+    <div class="headerBox">
+      <h1>Thumbspanel</h1>
+    </div>
+    <p id="paraBox"></p>
     <div class="linksBox">
       <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Important FBI Document</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=up">Up</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=down">Down</a></p>
-      <div class="linkBox">
-        <p><a href= "game.html">Game</a></p>
-        <p><a href="http://172.21.3.4:5000/bgm">BGM</a></p>
-        <p><a href="http://172.21.3.4:5000/perc?amount=50">Perc</a></p>
-        <p><a href="http://172.21.3.4:5000/color?hex=968b11">color</a></p>
-        <p><a href="http://172.21.3.4:5000/say?phrase=%27hello%27%27">Say</a></p>
-       </div>
-      </div>
+      <p><a href="http://172.21.3.4:5000/quiz">Quiz</a></p>
+      <p><a href="http://172.21.3.4:5000/hangman">Hangman</a></p>
     </div>
-  </body>
+    <div class="textBox">
+      <img src="img/lessGoo.jfif" alt="Dababy less goo." />
+      <p>In this image, Dababy is doing his iconic less goo image. He has a little version of Dababy on the brim of his hat</p>
+      <img src="img/susAmogus.jpg" alt="Minecraft/ amogus being sus." />
+      <p>In this image, a miner in minecraft is mining diamond. After he mines one block, he finds the red character from among us</p>
+      <img src="img/trollFace.jfif" alt="Troll bruh." />
+      <p>In this image, the old trollface meme is brought back, but in this image, instead of smiling, he is pondering something.</p>
+    </div>
+    <div class="linkBox">
+      <p><a href="game.html">Game</a></p>
+      <p><a href="http://172.21.3.4:5000/bgm">BGM</a></p>
+      <p><a href="http://172.21.3.4:5000/perc?amount=50">Perc</a></p>
+      <p><a href="http://172.21.3.4:5000/color?hex=968b11">color</a></p>
+      <p><a href="http://172.21.3.4:5000/say?phrase=%27hello%27%27">Say</a></p>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
